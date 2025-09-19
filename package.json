@@ -1,0 +1,50 @@
+{
+  "name": "news-analysis-service",
+  "version": "1.0.0",
+  "description": "AI-powered news analysis service that monitors RSS feeds and processes articles to identify events that could negatively impact the crypto market.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "news-analysis",
+    "crypto-market-impact",
+    "rss-feeds",
+    "ai-analysis",
+    "market-sentiment",
+    "news-monitoring",
+    "negative-event-detection",
+    "openrouter",
+    "llm-analysis",
+    "financial-news",
+    "real-time",
+    "firestore",
+    "cryptocurrency",
+    "black-swan-events",
+    "market-risk",
+    "automated-analysis"
+  ],
+  "author": "Muhammad Bilal Motiwala",
+  "project": "Black Swan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.1.5",
+    "compression": "^1.8.0",
+    "firebase-admin": "^11.11.1",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "node-cron": "^3.0.3",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
